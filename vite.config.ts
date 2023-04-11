@@ -9,6 +9,14 @@ export default defineConfig({
             name: 'main.ts',
             fileName: (format) => `main.${format}.js`
         },
+        rollupOptions: {
+            // Some libraries do not work well with Rollup and can be listed here.
+            // One example for me was 'gl'
+            external: [],
+        }
+    },
+    define: {
+        global: {},
     },
     optimizeDeps: {
         disabled: true,
