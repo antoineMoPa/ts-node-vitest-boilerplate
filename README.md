@@ -32,6 +32,12 @@ npm install
 npm run test
 ```
 
+# Building and running
+
+```
+npm run main
+```
+
 # Building docs
 
 ```
