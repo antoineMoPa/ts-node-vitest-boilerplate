@@ -10,8 +10,8 @@ export default defineConfig({
             fileName: (format) => `main.${format}.js`
         },
         rollupOptions: {
-            // Some libraries do not work well with Rollup and can be listed here.
-            // One example for me was 'gl'
+            // Some libraries do not work well with Rollup and should be listed here.
+            // Examples are 'gl' and 'fs'.
             external: [],
         }
     },
