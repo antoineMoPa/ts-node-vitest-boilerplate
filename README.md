@@ -10,3 +10,9 @@ This is intended for typescript libraries or server-side code, not frontend apps
 ```
 npm run test
 ```
+
+# Building docs
+
+```
+npm run docs
+```
