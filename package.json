@@ -12,8 +12,8 @@
     "test": "vitest",
     "test-ui": "vitest --ui",
     "vite-node": "vite-node",
-    "main": " npm run build && node dist/main.umd.js",
-    "main:debug": " npm run build && node --enable-source-maps --inspect-brk dist/main.umd.js"
+    "main": " npm run build && node dist/main.es.js",
+    "main:debug": " npm run build && node --enable-source-maps --inspect-brk dist/main.es.js"
   },
   "dependencies": {
     "@types/chai": "^4.3.4",
