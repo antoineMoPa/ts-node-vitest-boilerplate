@@ -13,7 +13,8 @@ export default defineConfig({
             // Some libraries do not work well with Rollup and should be listed here.
             // Examples are 'gl' and 'fs'.
             external: [],
-        }
+        },
+        sourcemap: true,
     },
     define: {
         global: {},
